@@ -1,0 +1,4 @@
+﻿Build started...
+1>------ Build started: Project: Switch Statments, Configuration: Debug Any CPU ------
+1>C:\Users\ralei\source\repos\Switch Statments\Switch Statments\Program.cs(13,49,13,49): error CS1002: ; expected
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
