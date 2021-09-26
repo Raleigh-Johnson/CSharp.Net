@@ -22,6 +22,7 @@ namespace ArraysAndLists
             //int[] numArray1 = new int[] { 5, 2, 10, 200, 5000 };
             string[] stringArray = { "Hello", "World", "PeanutButter","Cheezits","Cereal" };
             int[] numArray = { 5, 2, 10, 200, 5000, 600, 2300 };
+            string[] stringArray1 = { "Peanut butter Jelly Time.", "Hello, World.", "This is a string.", "This is another string.","This is a fourth string."  };
 
             Console.WriteLine("Pick a number between 0 and 6"); 
             int Choice1 = Convert.ToInt32(Console.ReadLine());
@@ -42,6 +43,16 @@ namespace ArraysAndLists
 
             }
             Console.WriteLine(stringArray[Choice2]); //Displays Array chosen by user.
+
+            Console.WriteLine("Pick a number between 0 and 4");
+            int Choice3 = Convert.ToInt32(Console.ReadLine());
+            if (Choice3 > 4) //Checks to see if users input is greater than total array count
+            {
+                Console.WriteLine("Sorry, Please restart program and enter a valid option.");
+                Console.WriteLine();
+
+            }
+            Console.WriteLine(stringArray1[Choice3]); //Displays Array chosen by user.
 
 
             Console.ReadLine();
