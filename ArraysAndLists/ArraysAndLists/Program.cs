@@ -22,7 +22,16 @@ namespace ArraysAndLists
             //int[] numArray1 = new int[] { 5, 2, 10, 200, 5000 };
             string[] stringArray = { "Hello", "World", "PeanutButter","Cheezits","Cereal" };
             int[] numArray = { 5, 2, 10, 200, 5000, 600, 2300 };
-            string[] stringArray1 = { "Peanut butter Jelly Time.", "Hello, World.", "This is a string.", "This is another string.","This is a fourth string."  };
+            List<string> List1 = new List<string>();
+            List1.Add("This is a list.");
+            List1.Add("Woah Congrats, you chose 1");
+            List1.Add("2 is a bad number");
+            List1.Add("Shrimp Fried Rice");
+            List1.Add("Another day, another dollar");
+
+
+
+
 
             Console.WriteLine("Pick a number between 0 and 6"); 
             int Choice1 = Convert.ToInt32(Console.ReadLine());
@@ -52,7 +61,7 @@ namespace ArraysAndLists
                 Console.WriteLine();
 
             }
-            Console.WriteLine(stringArray1[Choice3]); //Displays Array chosen by user.
+            Console.WriteLine(List1[Choice3]); //Displays Array chosen by user.
 
 
             Console.ReadLine();
