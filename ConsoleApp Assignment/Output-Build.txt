@@ -1,0 +1,4 @@
+﻿Build started...
+1>------ Build started: Project: ConsoleApp Assignment, Configuration: Debug Any CPU ------
+1>C:\Users\ralei\source\repos\ConsoleApp Assignment\ConsoleApp Assignment\Program.cs(19,40,19,46): error CS1061: 'string[]' does not contain a definition for 'length' and no accessible extension method 'length' accepting a first argument of type 'string[]' could be found (are you missing a using directive or an assembly reference?)
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
