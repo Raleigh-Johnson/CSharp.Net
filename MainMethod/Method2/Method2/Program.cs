@@ -12,20 +12,26 @@ namespace Method2
         {
             Console.WriteLine("Hello, enter an integer to be put through the operation.");
             int userInput1 = Convert.ToInt32(Console.ReadLine());
-            try
-            {
-                Console.WriteLine("Enter a second integer (Optional)");
-                int userInput2 = Convert.ToInt32(Console.ReadLine());//User input Int
-            }
-            catch (InvalidProgramException ex)
-            {
-                string userInput2 = Convert.ToInt32(Console.ReadLine());//User input Int
-            }
+
+            Console.WriteLine("Enter a second integer (Optional)");
+            string userInput2 = Console.ReadLine();
             Operator obj1 = new Operator();
-            int answer1 = obj1.Operation1(userInput1,userInput2);
-            Console.WriteLine(answer1);
+            if (userInput2 == "")
+            {
+                int answer1 = obj1.Operation1(userInput1);
+                Console.WriteLine(answer1);
+            }
+            else
+            {
+                int userInput3 = Convert.ToInt32(userInput2);//User input Int
+                int answer1 = obj1.Operation1(userInput1, userInput3);
+                Console.WriteLine(answer1);
+
+
+            }
+
 
             Console.ReadLine();
         }
     }
-}s
+}

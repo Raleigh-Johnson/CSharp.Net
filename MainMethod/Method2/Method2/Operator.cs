@@ -8,10 +8,9 @@ namespace Method2
 {
     class Operator
     {
-        public int Operation1(int userInput1, int userInput2)
+        public int Operation1(int userInput1, int userInput2 = 7)
         {
-            int answer1 = userInput1 * 5; //Operator for answer1
-            int answer2 = userInput2 * 5;
+            int answer1 = userInput1 * userInput2; //Operator for answer1
             return answer1;
         }
 
