@@ -6,14 +6,11 @@ using System.Threading.Tasks;
 
 namespace MethodsAndObjects
 {
-    class Employee  // Base class
+    public class Employee : Person  // Base class
     {
-        public Person : Employee()
-        {
-            int ID = 0451;
+        public int Id { get; set; }
 
-
-        }
-
+     
+          
     }       
 }

@@ -8,19 +8,16 @@ namespace MethodsAndObjects
 {
     public class Person
     {
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
 
-        class Persons : Person  // Derived class
+
+       public void SayName()
         {
-            public string FirstName = "Jeff";  // LastName field
-
-            public string LastName = "Wiley";  // LastName field
-
-            public void SayName()             // SayName method 
-            {
-                Console.WriteLine(FirstName + LastName);
-            }
-            
+            Console.WriteLine(FirstName +" "+ LastName);
         }
+            
+        
 
     }   
 }
