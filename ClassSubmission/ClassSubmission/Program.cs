@@ -16,7 +16,9 @@ namespace ClassSubmission
             obj1.Operation(userInput1);//Normal Method
             Console.WriteLine("Hello, enter an decimal to be put through the operation.");
             decimal userInput2 = Convert.ToDecimal(Console.ReadLine());
-            obj1.Operation(userInput2);//Overloaded Method
+            Console.WriteLine("Hello, enter an decimal to be put through the operation.");
+            decimal userInput3 = Convert.ToDecimal(Console.ReadLine());
+            obj1.Operation(userInput2,userInput3);//Overloaded Method
 
             Console.ReadLine();
         }

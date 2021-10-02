@@ -19,6 +19,15 @@ namespace ClassSubmission
             decimal answer1 = x + 5;
             Console.WriteLine(answer1);
         }
-
+        public void Operation(decimal x, decimal y)
+        {
+            decimal answer2 = x + y;
+            Console.WriteLine(answer2);
+        }
+        public void Operation1(out decimal z)
+        {
+            z = 13;
+            Console.WriteLine(z);
+        }
     }
 }
