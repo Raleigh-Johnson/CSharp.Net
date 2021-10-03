@@ -7,8 +7,10 @@ using System.Threading.Tasks;
 namespace MethodsAndObjects
 {
 
-    public class Employee : Person  // Base class
+    public class Employee : Person, IQuittable // Base class
     {
+        IQuittable
+           
          public override void SayName()
         {
             Console.WriteLine(FirstName + " " + LastName);
