@@ -14,7 +14,25 @@ namespace AbstractClassAssignment
             Console.WriteLine("I quit.");
         }
 
-         public override void SayName()
+        public static bool operator ==(Employee Id1, Employee Id2)
+        {
+
+            bool result = Id1.Id == Id2.Id;
+            return result;
+
+        }
+
+        public static bool operator !=(Employee Id1, Employee Id2)
+        {
+
+            bool result = Id1.Id != Id2.Id;
+            return result;
+
+        }
+
+
+
+        public override void SayName()
         {
             Console.WriteLine(FirstName + " " + LastName);
         }   

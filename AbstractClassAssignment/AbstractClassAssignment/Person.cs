@@ -10,6 +10,7 @@ namespace AbstractClassAssignment
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
+        public int Id { get; set; }
         public abstract void SayName();
         
 
