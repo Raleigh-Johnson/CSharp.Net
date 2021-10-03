@@ -4,13 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MethodsAndObjects
+namespace AbstractClassAssignment
 {
 
-    public class Employee : Person, IQuittable // Base class
+    public class Employee : Person, IQuittable
     {
-        IQuittable
-           
+        public void Quit()
+        {
+            Console.WriteLine("I quit.");
+        }
+
          public override void SayName()
         {
             Console.WriteLine(FirstName + " " + LastName);
