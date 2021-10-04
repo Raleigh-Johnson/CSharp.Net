@@ -1,0 +1,7 @@
+C:\Users\ralei\OneDrive\Documents\GitHub\CSharp.Net\LambdaAndLists\LambdaAndLists\obj\Debug\LambdaAndLists.csproj.CoreCompileInputs.cache
+C:\Users\ralei\OneDrive\Documents\GitHub\CSharp.Net\LambdaAndLists\LambdaAndLists\bin\Debug\LambdaAndLists.exe.config
+C:\Users\ralei\OneDrive\Documents\GitHub\CSharp.Net\LambdaAndLists\LambdaAndLists\bin\Debug\LambdaAndLists.exe
+C:\Users\ralei\OneDrive\Documents\GitHub\CSharp.Net\LambdaAndLists\LambdaAndLists\bin\Debug\LambdaAndLists.pdb
+C:\Users\ralei\OneDrive\Documents\GitHub\CSharp.Net\LambdaAndLists\LambdaAndLists\obj\Debug\LambdaAndLists.exe
+C:\Users\ralei\OneDrive\Documents\GitHub\CSharp.Net\LambdaAndLists\LambdaAndLists\obj\Debug\LambdaAndLists.pdb
+C:\Users\ralei\OneDrive\Documents\GitHub\CSharp.Net\LambdaAndLists\LambdaAndLists\obj\Debug\LambdaAndLists.csproj.AssemblyReference.cache
