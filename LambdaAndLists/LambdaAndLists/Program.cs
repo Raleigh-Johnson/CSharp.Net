@@ -28,16 +28,44 @@ namespace LambdaAndLists
                 new Employee { FirstName = "David", LastName = "Amber", ID = 8 },
                 new Employee { FirstName = "Sarah", LastName = "Weisbrodt", ID = 9 }
             }; //Filling out Employee List
+            List<Employee> JoeEmp = new List<Employee>(); //Defines Employee "Joe" List
+               
 
-            
+
+
+
             //Console.WriteLine(employees);
             foreach (Employee employee in employees)
             {
-
-                List<Employee> EmployeeList = employee.Where(item => item.ID >= 5);
-
-                Console.WriteLine(EmployeeList);
+                if (employee.FirstName == "Joe")
+                {
+                    Console.WriteLine(employee.FirstName + " " + employee.LastName + " " + "ID: " + employee.ID);
+                    JoeEmp.Add(employee);
+                }
             }
+
+            foreach (Employee employee in JoeEmp)
+            {
+                Console.WriteLine(employee.FirstName + " " + employee.LastName);
+
+            }
+
+
+            //List<Employee> JoeEmp1 = new List<Employee>(); //Defines Employee Empty "Joe" List for Lambda Expression
+
+            List<Employee> EmployeeJoe = employees.Where(x => x.FirstName == "Joe").ToList();
+
+            foreach (Employee employee in EmployeeJoe)
+            {
+                Console.WriteLine(employee.FirstName + " " + employee.LastName);
+            }
+
+            List<Employee> LambdaEmp = employees.Where(x => x.ID > 5).ToList();
+            foreach (Employee employee in LambdaEmp)
+            {
+                Console.WriteLine(employee.FirstName + " " + employee.LastName);
+            }
+
             Console.ReadLine();
 
 
