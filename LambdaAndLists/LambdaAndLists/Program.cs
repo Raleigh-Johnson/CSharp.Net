@@ -15,7 +15,7 @@ namespace LambdaAndLists
 
             
             
-            List<Employee> employees = new List<Employee>
+            List<Employee> employees = new List<Employee> //Defines Employee List
             {
                 new Employee { FirstName = "Joe", LastName = "Wiley", ID = 0 },
                 new Employee { FirstName = "Mikah", LastName = "Anders", ID = 1 },
@@ -27,14 +27,17 @@ namespace LambdaAndLists
                 new Employee { FirstName = "Eric", LastName = "Rodrigues", ID = 7 },
                 new Employee { FirstName = "David", LastName = "Amber", ID = 8 },
                 new Employee { FirstName = "Sarah", LastName = "Weisbrodt", ID = 9 }
-            };
+            }; //Filling out Employee List
 
-            List<Employee> EmployeeList = employees.FindAll(x => x.FirstName == "Joe");
-            Console.WriteLine(employees);
-            //foreach (Employee employee in employees )
-            //{
-            //    Console.WriteLine(employee);
-            //}
+            
+            //Console.WriteLine(employees);
+            foreach (Employee employee in employees)
+            {
+
+                List<Employee> EmployeeList = employee.Where(item => item.ID >= 5);
+
+                Console.WriteLine(EmployeeList);
+            }
             Console.ReadLine();
 
 
