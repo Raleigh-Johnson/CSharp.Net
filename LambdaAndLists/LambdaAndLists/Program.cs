@@ -35,7 +35,7 @@ namespace LambdaAndLists
 
 
             //Console.WriteLine(employees);
-            foreach (Employee employee in employees)
+            foreach (Employee employee in employees) //Foreach Loop for expression
             {
                 if (employee.FirstName == "Joe")
                 {
@@ -53,17 +53,17 @@ namespace LambdaAndLists
 
             //List<Employee> JoeEmp1 = new List<Employee>(); //Defines Employee Empty "Joe" List for Lambda Expression
 
-            List<Employee> EmployeeJoe = employees.Where(x => x.FirstName == "Joe").ToList();
+            List<Employee> EmployeeJoe = employees.Where(x => x.FirstName == "Joe").ToList();//Lambda Expression to target all FirstNames with Joe
 
-            foreach (Employee employee in EmployeeJoe)
+            foreach (Employee employee in EmployeeJoe) //Prints names to console
             {
                 Console.WriteLine(employee.FirstName + " " + employee.LastName);
             }
 
-            List<Employee> LambdaEmp = employees.Where(x => x.ID > 5).ToList();
+            List<Employee> LambdaEmp = employees.Where(x => x.ID > 5).ToList(); //targets employees that have an ID greater than 5
             foreach (Employee employee in LambdaEmp)
             {
-                Console.WriteLine(employee.FirstName + " " + employee.LastName);
+                Console.WriteLine(employee.FirstName + " " + employee.LastName); //Prints out list with Employees with an ID greate than 5
             }
 
             Console.ReadLine();
