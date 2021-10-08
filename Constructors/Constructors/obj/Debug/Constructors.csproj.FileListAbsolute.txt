@@ -1,0 +1,7 @@
+C:\Users\ralei\OneDrive\Documents\GitHub\CSharp.Net\Constructors\Constructors\obj\Debug\Constructors.csproj.AssemblyReference.cache
+C:\Users\ralei\OneDrive\Documents\GitHub\CSharp.Net\Constructors\Constructors\obj\Debug\Constructors.csproj.CoreCompileInputs.cache
+C:\Users\ralei\OneDrive\Documents\GitHub\CSharp.Net\Constructors\Constructors\bin\Debug\Constructors.exe.config
+C:\Users\ralei\OneDrive\Documents\GitHub\CSharp.Net\Constructors\Constructors\bin\Debug\Constructors.exe
+C:\Users\ralei\OneDrive\Documents\GitHub\CSharp.Net\Constructors\Constructors\bin\Debug\Constructors.pdb
+C:\Users\ralei\OneDrive\Documents\GitHub\CSharp.Net\Constructors\Constructors\obj\Debug\Constructors.exe
+C:\Users\ralei\OneDrive\Documents\GitHub\CSharp.Net\Constructors\Constructors\obj\Debug\Constructors.pdb
