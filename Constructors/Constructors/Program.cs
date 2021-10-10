@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Constructors
 {
-    class Program : Person
+    class Program
     { 
         public static void Main()
         {
@@ -15,10 +15,10 @@ namespace Constructors
             var i = 5;
             Console.WriteLine(i);
 
-            ConstructMe a = new ConstructMe("Raleigh ", 16);
-            Console.WriteLine($"The instance with the name: { nameof(Person1)}, has property name: {a.name} and id {a.id}");
+            Console.WriteLine($"The instance with the name: { ConstructMe.Name()} and id {ConstructMe.iD}");
             Console.ReadLine();
         }
     }
 }
 
+  

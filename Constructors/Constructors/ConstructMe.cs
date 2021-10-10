@@ -6,15 +6,22 @@ using System.Threading.Tasks;
 
 namespace Constructors
 {
-    class ConstructMe
+   public class  
     { //Identifies proporties 
-        public string name;
-        public int id;
-        public ConstructMe(string Name, int id)
+        public ConstructMe(string name) : this(name, 123) 
+        {
+        }
+        public ConstructMe(int id) : this("Bob", id)
+        {
+        }
+        public ConstructMe(string name, int id)
         {
             this.name = Name;
-            this.id = id;
+            this.id = iD;
         }
-        
+
+
+
+
     }
 }
