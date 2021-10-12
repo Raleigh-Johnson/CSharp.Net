@@ -10,18 +10,20 @@ namespace Constructors
     {
         public string Name { get; set; }
         public int iD { get; set; }
-        public ConstructMe()
+        public ConstructMe() : this("Jeff" , 123)
         {
 
         }
-        public ConstructMe(string Name) : this()
+        public ConstructMe(string /*Name*/) : this(Name, 456)
         {
-            this.Name = Name;
+        }
+        public ConstructMe(int iD) : this("Jeff", iD)
+        {
         }
         public ConstructMe(string Name, int iD)
-        : this(Name)
         {
             this.iD = iD;
+            this.Name = Name;
         }
     }
 }
